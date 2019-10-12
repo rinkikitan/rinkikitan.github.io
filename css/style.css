@@ -154,7 +154,14 @@ article {
 
 .contents {
   display: inline-block;
+
   opacity: 0.5;
+}
+
+.contents a img {
+  width:280px;
+  height:280px;
+  object-fit: cover;
 }
 
 .contents:hover {

@@ -3,6 +3,9 @@
   .header-list {
     display: none;
   }
+  .center {
+    width: 80%;
+  }
 
   h1.name {
     font-size: 45px;
@@ -13,8 +16,20 @@
   #works h1 {
     text-align: center;
   }
+  .contents a img {
+    width:240px;
+    height:240px;
+    object-fit: cover;
+  }
+  .contents-wrap ul {
+    text-align: center;
+  }
   #showmore {
-    width: 280px;
+    border-radius: 8px;
+    margin-right: 15%;
+    width: 210px;
+    height: 40px;
+    background-color: rgb(18, 163, 245);
   }
   .contact-list-items {
     margin:5px;
