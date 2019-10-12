@@ -1,0 +1,36 @@
+@media screen and (max-width:480px){
+  /*画面幅が480pxまでの時*/
+  .header-list {
+    display: none;
+  }
+
+  h1.name {
+    font-size: 45px;
+  }
+  #profile h1 {
+    text-align: center;
+  }
+  #works h1 {
+    text-align: center;
+  }
+  #showmore {
+    width: 280px;
+  }
+  .contact-list-items {
+    margin:5px;
+  }
+  .contact-list-items a img {
+    width:50px;
+    height:50px;
+  }
+  #contact h1 {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .contact-list p {
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+
+}
